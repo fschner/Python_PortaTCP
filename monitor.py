@@ -4,7 +4,8 @@ import subprocess
 # Configurações
 host = 'localhost'  # Endereço do host
 port = 3000         # Número da porta que você deseja testar
-script_path = './auto_porta.sh'  # Caminho para o script shell
+script_path = './auto_porta.sh'  # Caminho para o script shell Executar pelo terminal
+# script_path = '/home/fschner/python/monitor_grafana/auto_porta.sh' Executar pelo CRONTAB
 
 def test_tcp_connection(host, port):
     try:
